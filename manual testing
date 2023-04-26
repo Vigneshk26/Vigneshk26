@@ -1,0 +1,36 @@
+7. Write any 5 Negative testcases?
+ >Invalid input: Providing invalid input data to a system, such as entering alphabetic characters instead of numerical values in a field that expects numeric input.
+ >Empty input: Not providing any input data to a system, such as leaving required fields empty or submitting a form without filling in any details.
+ >Out-of-range input: Providing input data that falls outside of the expected range, such as entering a negative value where only positive values are expected.
+ >Unauthorized access: Attempting to access a system or feature without the appropriate permissions or credentials, such as trying to log in with an incorrect username or password.
+ >System failure: Testing how the system behaves when it encounters errors, such as network failure, server downtime, or software bugs.
+
+
+8.Write a few test cases for the IRCTC Web Application?
+ >Registration Test Cases:
+    Verify that a user can successfully register with valid details.
+    Verify that a user cannot register with an invalid email address.
+    Verify that a user cannot register with a weak password.
+ >Login Test Cases:
+    Verify that a user can successfully login with valid credentials.
+    Verify that a user cannot login with invalid credentials.
+    Verify that a user is redirected to the correct page after logging in.
+    Verify that the system does not allow multiple users to login with the same credentials simultaneously.
+ >Search Test Cases:
+    Verify that a user can successfully search for trains between two valid stations.
+    Verify that a user cannot search for trains with invalid stations.
+    Verify that a user cannot search for trains with an invalid date.
+    Verify that the search results page displays the correct information, including train names, departure/arrival times, and seat availability.
+ >Booking Test Cases:
+    Verify that a user can successfully book a ticket after selecting a train and entering passenger details.
+    Verify that the system does not allow booking more seats than available for a particular train.
+    Verify that a user cannot book a ticket without providing all required details.
+    Verify that the booking confirmation page displays the correct information, including PNR number, train details, and passenger information.
+
+
+
+
+
+
+
+
